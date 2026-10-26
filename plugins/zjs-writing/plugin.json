@@ -1,0 +1,32 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "zjs-writing",
+  "version": "1.0.0",
+  "description": "中英文科研与专业写作、润色、压缩和审稿回复；删减冗余，保留事实、技术条件与证据强度。",
+  "author": {
+    "name": "ZJS"
+  },
+  "repository": "https://github.com/ashkanstennett-design/ZJS",
+  "license": "MIT",
+  "keywords": [
+    "academic-writing",
+    "research",
+    "bilingual",
+    "editing"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ZJS 中英文写作",
+        "shortDescription": "精简科研表达，保留事实与证据强度",
+        "longDescription": "基于 Kiterlin anti-defensive-writing 的个人中英文写作技能，支持科研与专业文本起草、润色、压缩、忠实翻译和审稿回复。",
+        "developerName": "ZJS",
+        "category": "Productivity",
+        "defaultPrompt": [
+          "请使用 ZJS 中英文写作，润色以下科研段落，保留数据、技术条件和证据强度。",
+          "请使用 ZJS 中英文写作，压缩以下英文摘要，保留不利结果及适用范围。"
+        ]
+      }
+    }
+  }
+}

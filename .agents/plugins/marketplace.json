@@ -1,0 +1,20 @@
+{
+  "name": "zjs-personal-skills",
+  "interface": {
+    "displayName": "ZJS个人技能"
+  },
+  "plugins": [
+    {
+      "name": "zjs-writing",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zjs-writing"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
