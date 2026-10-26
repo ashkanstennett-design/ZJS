@@ -1,0 +1,6 @@
+interface:
+  display_name: "ZJS 中英文写作"
+  short_description: "以Kiterlin规则为底，精简中英文科研与专业写作，保留证据和技术边界"
+  default_prompt: "使用 $zjs-writing 润色以下文字，减少冗余和防御性表达，保留数据、条件、术语与原有证据强度。"
+policy:
+  allow_implicit_invocation: true

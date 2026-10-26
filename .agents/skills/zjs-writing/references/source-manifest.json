@@ -1,0 +1,13 @@
+{
+  "name": "zjs-writing",
+  "version": "1.0.0",
+  "created_on": "2026-10-26",
+  "upstream_repository": "https://github.com/Kiterlin/anti-defensive-writing",
+  "upstream_commit": "f516147d017a3fe43ae99192cb89d8261b0c8679",
+  "upstream_skill_path": "skill/anti-defensive-writing/SKILL.md",
+  "upstream_skill_blob_sha": "c756be063b4cdc344394a5e7d4e9ae95d839e5f8",
+  "upstream_skill_sha256": "287e3d05aeabf6409fa53b74a124ee0d897338009be2c04d3e38c352ca74a3c1",
+  "upstream_license": "MIT",
+  "derivation": "Condensed bilingual rules with scope control, evidence calibration, technical fidelity, faithful translation, critical-review and output guidance.",
+  "runtime": "Instruction-only; no external APIs, MCP servers or executable scripts."
+}
